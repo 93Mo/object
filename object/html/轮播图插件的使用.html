@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="../lib/jquery-lunbotu/jquery.mylunbotu.css">
+	<style>
+		ul{list-style: none;padding: 0;margin: 0;}
+	</style>
+	<script src="../js/jquery-3.2.1.js"></script>
+	<script src="../lib/jquery-lunbotu/jquery.mylunbotu.js"></script>
+
+	<script>
+		
+		$(function(){
+			$('.box').mylunbotu({
+				imgs:['../img/1.jpg','../img/2.jpg','../img/3.jpg','../img/4.jpg','../img/5.jpg','../img/6.jpg',],
+				buttons:false
+			});
+		})
+	</script>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
